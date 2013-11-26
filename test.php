@@ -2,10 +2,10 @@
 // OAuth用ライブラリ「twitteroauth」
 require_once 'twitteroauth/twitteroauth.php';
 // アプリ登録した際に発行された値を入れて下さい。
-$consumer_key = '*********************';
-$consumer_secret = '******************************************';
-$access_token = '**************************************************';
-$access_token_secret = '******************************************';
+$consumer_key = 'OHPgw4tWRtsZIxhEWjHdeA';
+$consumer_secret = 'GriGfifpetVUvRHXk8TR3GpAEcQYu7q4vkP4mnFWl3Q';
+$access_token = '2171319762-MwgSPgL3QVHeCG6PNp9uNv5pb0iJKDqIRfw4vuK';
+$access_token_secret = 'Ucpssas1gmjnlbe8QSaPhN75cEeermBIx5WurFOSxHndq';
 // オブジェクト生成
 $tw_obj = new TwitterOAuth (
   $consumer_key,
